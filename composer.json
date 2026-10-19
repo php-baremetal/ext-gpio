@@ -1,0 +1,21 @@
+{
+    "name": "php-baremetal/ext-gpio",
+    "description": "gpio_* : digital I/O (Baremetal gpio extension), as a Composer package.",
+    "type": "bm-ext",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gianfrancesco Aurecchia",
+            "email": "gianfri@aurecchia.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.3",
+        "php-baremetal/gpio-hal": "^1.0"
+    },
+    "extra": {
+        "baremetal": {
+            "module": "gpio"
+        }
+    }
+}
