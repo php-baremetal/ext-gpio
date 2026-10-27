@@ -42,7 +42,7 @@ light it. Use ext-led for it.
   },
   "extra": {
     "baremetal": {
-      "sdk": "esp32@^1.0",
+      "sdk": "esp32@^2.0",
       "board": "waveshare-esp32-s3-zero-n8r8",
       "runtime": "init-loop",
       "storage": "embedded"
